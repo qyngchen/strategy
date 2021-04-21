@@ -1,4 +1,8 @@
 package com.qyngchen.strategy.service;
 
-public class TestService {
+import com.qyngchen.strategy.entity.BaseTestEntity;
+
+public interface TestService {
+
+    String getMessage(BaseTestEntity entity);
 }
